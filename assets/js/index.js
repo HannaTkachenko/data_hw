@@ -9,8 +9,6 @@ const btnHandler = ({
   },
   target,
 }) => {
-  console.log(target.style);
-  console.log(flexDirection);
   blockContainer.style.flexDirection = flexDirection;
 };
 
